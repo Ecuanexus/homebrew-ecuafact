@@ -2,28 +2,28 @@
 class EcuafactPreview < Formula
   desc "CLI de facturacion electronica de Ecuafact para Ecuador (SRI)"
   homepage "https://docsapi.ecuafact.com/"
-  version "0.0.1-preview.3"
+  version "0.0.1-preview.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.3/ecuafact-0.0.1-preview.3-osx-arm64.tar.gz"
-      sha256 "7ed8f412f63bfa2d79788b2e846c1964471a5b6948b7e7a05ef61a33bf0bfe00"
+      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.4/ecuafact-0.0.1-preview.4-osx-arm64.tar.gz"
+      sha256 "c2ed76ef08ebe15629ef05d1028c9d54abbcb8413189aaefea0fba239ea03bb9"
     end
     on_intel do
-      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.3/ecuafact-0.0.1-preview.3-osx-x64.tar.gz"
-      sha256 "5de61c060144a8b6613f5e0289ac575b8bcd7e154b9500e39cc97b5d2c9170f7"
+      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.4/ecuafact-0.0.1-preview.4-osx-x64.tar.gz"
+      sha256 "66de3cdcd2d8265d94e8e8d8c12538c29a929191f486bbe30b2ff6be28880188"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.3/ecuafact-0.0.1-preview.3-linux-arm64.tar.gz"
-      sha256 "1becd9a6ad330dbda5696e2db9c302a8fc4e30045dbaa785e3667ed4a919a063"
+      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.4/ecuafact-0.0.1-preview.4-linux-arm64.tar.gz"
+      sha256 "dd7e0537155859a453bfcfa8096de24083f54f2c326e053160972a7a436ce9b3"
     end
     on_intel do
-      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.3/ecuafact-0.0.1-preview.3-linux-x64.tar.gz"
-      sha256 "2d2bc5dd28bcbc9ffd0bac3aa7385ac77d01face1c8fc42553d4d06b00a2f1fb"
+      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.4/ecuafact-0.0.1-preview.4-linux-x64.tar.gz"
+      sha256 "6cebc36c336ed47bc0cc6f8291a6adc191de9f9a08b3d070342bdb7b6e01a0b4"
     end
   end
 

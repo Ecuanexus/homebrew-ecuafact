@@ -2,28 +2,28 @@
 class EcuafactPreview < Formula
   desc "CLI de facturacion electronica de Ecuafact para Ecuador (SRI)"
   homepage "https://docsapi.ecuafact.com/"
-  version "0.0.1-preview.4"
+  version "0.0.1-preview.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.4/ecuafact-0.0.1-preview.4-osx-arm64.tar.gz"
-      sha256 "c2ed76ef08ebe15629ef05d1028c9d54abbcb8413189aaefea0fba239ea03bb9"
+      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.5/ecuafact-0.0.1-preview.5-osx-arm64.tar.gz"
+      sha256 "52b98b0020d04b7b42fd76676f0e55f7fb9e7c75e02f2da1446fb990b3f477e7"
     end
     on_intel do
-      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.4/ecuafact-0.0.1-preview.4-osx-x64.tar.gz"
-      sha256 "66de3cdcd2d8265d94e8e8d8c12538c29a929191f486bbe30b2ff6be28880188"
+      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.5/ecuafact-0.0.1-preview.5-osx-x64.tar.gz"
+      sha256 "9e4d1537c89f19712360d6568f48ac341c8fbd528fad8fc7ef5895b5cc0ccd05"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.4/ecuafact-0.0.1-preview.4-linux-arm64.tar.gz"
-      sha256 "dd7e0537155859a453bfcfa8096de24083f54f2c326e053160972a7a436ce9b3"
+      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.5/ecuafact-0.0.1-preview.5-linux-arm64.tar.gz"
+      sha256 "72fae65148fa8ad6db099df6fc920f3ea287d193f6cfbc290ee7ec7fe6b8af1c"
     end
     on_intel do
-      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.4/ecuafact-0.0.1-preview.4-linux-x64.tar.gz"
-      sha256 "6cebc36c336ed47bc0cc6f8291a6adc191de9f9a08b3d070342bdb7b6e01a0b4"
+      url "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview.5/ecuafact-0.0.1-preview.5-linux-x64.tar.gz"
+      sha256 "091156197df7b6546539ab51edaafd4c386265a45a2afbc6aca16b6bee7edb24"
     end
   end
 
